@@ -1,0 +1,20 @@
+Test set metrics (Random Forest):
+  accuracy: 0.9525
+  precision: 0.7206
+  recall: 0.3833
+  f1: 0.5004
+  roc_auc: 0.9395
+
+              precision    recall  f1-score   support
+
+       <=50K       0.96      0.99      0.98     37429
+        >50K       0.72      0.38      0.50      2476
+
+    accuracy                           0.95     39905
+   macro avg       0.84      0.69      0.74     39905
+weighted avg       0.95      0.95      0.95     39905
+
+Confusion Matrix (rows=actual, cols=predicted):
+              <=50K   >50K
+  <=50K       37061     368
+  >50K         1527     949

@@ -1,0 +1,9 @@
+Optional: scripts to compare with Logistic Regression, Random Forest, XGBoost, and other segmentation methods.
+Main model for Obj 1 is Random Forest (src/train_classifier.py). These write to outputs/ with _lr, _rf, _xgb suffixes.
+For XGBoost: pip install xgboost (add to requirements if you use alternatives).
+
+  python alternatives/train_classifier_lr.py --no-grid
+  python alternatives/train_classifier_rf.py --no-grid
+  python alternatives/train_classifier_xgb.py --no-grid
+  python alternatives/compare_classifiers.py
+  python alternatives/compare_segmentation.py

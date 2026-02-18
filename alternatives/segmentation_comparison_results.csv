@@ -1,0 +1,10 @@
+method,k,spread,max_rate,min_rate
+K-Means,4,0.1006,0.1141,0.0135
+PCA + K-Means,4,0.1005,0.1141,0.0137
+K-Prototypes,4,0.1231,0.1231,0.0
+K-Means,5,0.1438,0.1573,0.0135
+PCA + K-Means,5,0.1435,0.1574,0.0138
+K-Prototypes,5,0.1296,0.1296,0.0
+K-Means,6,0.1438,0.1578,0.0139
+PCA + K-Means,6,0.1435,0.1578,0.0143
+K-Prototypes,6,0.3049,0.3049,0.0

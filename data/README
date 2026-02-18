@@ -1,0 +1,5 @@
+Place the census data file here as:
+  census-bureau.data   (comma-delimited, no header; one row per record)
+
+Column names are in census-bureau.columns (one name per line, 42 lines).
+If you have the original take-home data, copy census-bureau.data into this folder.
